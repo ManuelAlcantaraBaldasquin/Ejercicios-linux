@@ -56,8 +56,6 @@
 
 --------------------------------Ejercicios 3-------------------------------------------
 
-
-
 1- ls *.jpg
 
 2- ls j*
@@ -66,26 +64,24 @@
 
 4-ls *n
 
-5- ls -R
+5- ls -R /etc
 
 6- cp /bin/gzip /test 
-    cd /test
+    cd test
     mv gzip gzip2
 
 7-mv test test2
    mkdir test3
-   mv /test2 /test3
+   mv /test2/* /test3
+   rmdir test2
 
 9-mkdir multimedia_test
   cp /multimedia /multimedia_test
   touch /multimedia/video/films.txt 
   touch /multimedia/video/actors.txt
-  touch /multimedia_test/video/
-  cp /multimedia/* /multimedia_test
+  cp -Ru /multimedia/* /multimedia_test
 
 10- rmdir -i multimedia/pictures/others
 
 11- mv films.txt multimedia/video
     mv films.txt my_films.txt
-
-tree /multimedia_test | cat actors.txt films.txt
