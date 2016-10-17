@@ -1,6 +1,6 @@
 # Ejercicios-linux
 
-Ejercicios capítulo 1 
+--------------------------------Ejercicios capítulo 1 --------------------------------
 
 1-C
 
@@ -25,7 +25,13 @@ Ejercicios capítulo 1
 
 
 
-Ejercicios 2
+
+
+
+--------------------------------Ejercicios 2--------------------------------
+
+
+
 
 1-  /etc
 
@@ -46,18 +52,30 @@ Ejercicios 2
 
 
 
-Ejercicios 3 
+
+
+--------------------------------Ejercicios 3-------------------------------------------
+
+
+
 1- ls *.jpg
+
 2- ls j*
+
 3-ls k?a*
+
 4-ls *n
+
 5- ls -R
+
 6- cp /bin/gzip /test 
     cd /test
     mv gzip gzip2
+
 7-mv test test2
    mkdir test3
    mv /test2 /test3
+
 9-mkdir multimedia_test
   cp /multimedia /multimedia_test
   touch /multimedia/video/films.txt 
