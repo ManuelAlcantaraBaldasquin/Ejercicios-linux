@@ -1,0 +1,11 @@
+1- ls *.jpg
+2- ls j*
+3-ls k?a*
+4-ls *n
+5- ls -R
+6- cp /bin/gzip /test 
+    cd /test
+    mv gzip gzip2
+7-mv test test2
+   mkdir test3
+   mv /test2 /test3
