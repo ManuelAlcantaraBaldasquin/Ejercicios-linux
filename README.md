@@ -85,3 +85,92 @@
 
 11- mv films.txt multimedia/video
     mv films.txt my_films.txt
+
+
+
+--------------------------------Ejercicios 4-------------------------------------------
+1-654   rw-r-xr--
+  766
+  777
+  520   r-x-w----
+  764   rwxrw-r--
+  440
+  
+2- addgroup office1 office2
+
+3- adduser gearoid paul
+   adduser paul --ingroup office1
+   adduser gearoid --ingroup office1
+
+4-adduser anna emma
+  adduser anna --ingroup office2
+  adduser emma --ingroup office2
+
+5-su gearoid 
+  touch topsecret.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
